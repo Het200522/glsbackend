@@ -5,7 +5,7 @@ let cors = require('cors');
 
 app.use(cors());
 app.get('/', (req, res) => {
-    res.send('Hello Gls!');
+    res.send('Hello Gls,Welcome to Devops workshop!');
 });
 
 app.listen(port, () => {
